@@ -2,7 +2,7 @@
 // querySelector é a função que busca/pega o que quisermos dentro da nossa pasta.
 var meuBotao = document.querySelector("#botao");
 function mostrarAviso(){
-    alert("Olá! Você me clicou!");
+    alert("Hey! You clicked me!");
     }    
 meuBotao.addEventListener('click', mostrarAviso);
 // Indentificando elementos da tag <ul> do arquivo HTML
@@ -13,4 +13,4 @@ console.log(ingrediente);
 var lista = document.querySelector("ul");
 var novo_item = document.createElement("li");
 lista.appendChild(novo_item);
-document.querySelector("ul").children[3].innerHTML = "Proteínas mais saudáveis!";
+document.querySelector("ul").children[3].innerHTML = "Healthier Proteins!";
