@@ -44,7 +44,9 @@
     </ul>
 
 <!-- Usage Examples -->
+
 ### Usage
+
 &#128073; Assuming you're not going to download the entire project from this repository, choose between [Udemy-Courses](https://github.com/vyujitanaka/WEB-Development-Projects/tree/main/Udemy-Courses) or [YouTube-Courses](https://github.com/vyujitanaka/WEB-Development-Projects/tree/main/YouTube-Courses) folders to access the desired project.
 
 &#128073; GitHub is smart enough to take you straight to each project's folders. That's because it skips empty directories.
