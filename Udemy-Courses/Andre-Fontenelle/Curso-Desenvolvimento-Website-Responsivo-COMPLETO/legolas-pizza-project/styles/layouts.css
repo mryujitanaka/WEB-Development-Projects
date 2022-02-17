@@ -40,20 +40,20 @@ nav div#logo {
 	height: 200px;
 }
 
-nav ul#side-left {
-	float: left;
-}
-
-nav ul#side-right {
-	float: right;
-}
-
 nav ul {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: left;
 	margin-top: 65px;
 	height: 40px;
+}
+
+nav ul#side-left {
+	float: left;
+}
+
+nav ul#side-right {
+	float: right;
 }
 
 nav ul li {
