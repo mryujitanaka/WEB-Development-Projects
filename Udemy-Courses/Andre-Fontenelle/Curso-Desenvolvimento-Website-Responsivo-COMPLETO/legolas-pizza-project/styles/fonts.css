@@ -29,8 +29,7 @@ h4,
 h5,
 h6 {
 	font-family: "Poppins", sans-serif;
-	/*text-align: center;*/
-	text-align: left;
+	text-align: center;
 	color: #f2b705;
 }
 
@@ -48,4 +47,34 @@ p,
 li,
 a {
 	font-family: "Roboto", sans-serif;
+}
+
+/* Header Elements */
+header div#text-call h1 {
+	font-size: 900%;
+	font-weight: 600;
+	color: #ffffff;
+	text-shadow: 4px 6px 12px #000000;
+	margin-bottom: -25px;
+}
+
+header div#text-call h4 {
+	font-size: 200%;
+	font-weight: 700;
+	text-shadow: 4px 6px 12px #000000;
+	margin-bottom: 50px;
+}
+
+header div#text-call a {
+	font-size: 110%;
+	font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 30px;
+	background: linear-gradient(
+		rgba(7, 115, 74) 0%,
+		rgba(2, 89, 57) 50%,
+		rgba(25, 38, 6) 100%
+	);
 }

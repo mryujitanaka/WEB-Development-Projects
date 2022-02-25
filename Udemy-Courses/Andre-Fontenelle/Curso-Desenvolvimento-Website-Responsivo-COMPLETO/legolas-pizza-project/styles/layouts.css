@@ -14,6 +14,7 @@ WHITE SILVER: #F2F2F2
 }
 
 header {
+	position: relative;
 	background-image: linear-gradient(rgba(0, 0, 0, 10), rgba(0, 0, 0, 0)),
 		url(../images/secao08-background-capa.jpg);
 	background-size: cover;
@@ -24,14 +25,13 @@ header {
 	clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
-nav {
+header nav {
 	width: 95%;
 	height: 150px;
-	/*background-color: #000000;*/
 	margin: 10px auto;
 }
 
-nav div#logo {
+header nav div#logo {
 	float: left;
 	background-image: url(../images/secao08-logo-pizzaria-fontenelle.png);
 	background-size: contain;
@@ -40,7 +40,7 @@ nav div#logo {
 	height: 200px;
 }
 
-nav ul {
+header nav ul {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: left;
@@ -48,19 +48,19 @@ nav ul {
 	height: 40px;
 }
 
-nav ul#side-left {
+header nav ul#side-left {
 	float: left;
 }
 
-nav ul#side-right {
+header nav ul#side-right {
 	float: right;
 }
 
-nav ul li {
+header nav ul li {
 	list-style: none;
 }
 
-nav ul li a {
+header nav ul li a {
 	color: #f2f2f2;
 	text-decoration: none;
 	padding: 10px 30px;
@@ -68,17 +68,17 @@ nav ul li a {
 	font-size: 95%;
 }
 
-nav ul li a#register {
+header nav ul li a#register {
 	border: 2px solid #f2f2f2;
 	padding: 10px 30px;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
 	background-color: #a62103;
 	transition-duration: 0.5s;
 }
 
-nav ul ion-icon#user-icon {
+header nav ul ion-icon#user-icon {
 	width: 30px;
 	height: 30px;
 	color: #f2f2f2;
@@ -86,7 +86,17 @@ nav ul ion-icon#user-icon {
 	margin-left: 20px;
 }
 
-nav ul ion-icon#user-icon:hover {
+header nav ul ion-icon#user-icon:hover {
 	color: #a62103;
 	cursor: pointer;
+}
+
+header div#text-call {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
