@@ -8,6 +8,7 @@ DARKER GREEN: #192606
 DARK RED: #A62103
 DARKER RED: #400D01
 WHITE SILVER: #F2F2F2
+DARK YELLOW: #F2B705
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -43,13 +44,39 @@ h2 {
 	font-weight: 200;
 }
 
+h2::after {
+	display: block;
+	background-color: #02734a;
+	height: 5px;
+	width: 100px;
+	margin: 10px auto 30px;
+	border-radius: 30px;
+	content: " ";
+}
+
+h4 {
+	font-size: 150%;
+	font-weight: 500;
+	padding: 40px 0 10px;
+}
+
 p,
 li,
 a {
 	font-family: "Roboto", sans-serif;
+	color: #000000;
+}
+
+p.emphasis {
+	font-size: 110%;
+	line-height: 1.8;
+	font-weight: 300;
+	text-align: center;
+	width: 60%;
 }
 
 /* Header Elements */
+/* Section 1 */
 header div#text-call h1 {
 	font-size: 900%;
 	font-weight: 600;
@@ -77,4 +104,30 @@ header div#text-call a {
 		rgba(2, 89, 57) 50%,
 		rgba(25, 38, 6) 100%
 	);
+}
+
+/* Perfect Sunday Section */
+section div#perfect-sunday-center-side-section h2 {
+	font-size: 400%;
+	font-weight: 700;
+}
+
+section div.key-points p {
+	font-size: 110%;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+section div.key-points h4 {
+	color: #400d01;
+}
+
+section div.key-points h4::after {
+	display: block;
+	background-color: #02734a;
+	height: 5px;
+	width: 20%;
+	margin: 10px auto 20px;
+	border-radius: 30px;
+	content: " ";
 }

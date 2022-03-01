@@ -5,6 +5,7 @@ DARKER GREEN: #192606
 DARK RED: #A62103
 DARKER RED: #400D01
 WHITE SILVER: #F2F2F2
+DARK YELLOW: #F2B705
 */
 
 * {
@@ -13,6 +14,7 @@ WHITE SILVER: #F2F2F2
 	box-sizing: border-box;
 }
 
+/* Menu */
 header {
 	position: relative;
 	background-image: linear-gradient(rgba(0, 0, 0, 10), rgba(0, 0, 0, 0)),
@@ -91,6 +93,7 @@ header nav ul ion-icon#user-icon:hover {
 	cursor: pointer;
 }
 
+/* Section 1 */
 header div#text-call {
 	position: absolute;
 	width: 100%;
@@ -99,4 +102,118 @@ header div#text-call {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+/* Perfect Sunday Section */
+section#perfect-sunday {
+	width: 100%;
+	padding: 30px 0 80px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+/* Perfect Sunday LEFT and RIGHT Section */
+section#perfect-sunday div#perfect-sunday-left-side-section,
+div#perfect-sunday-right-side-section {
+	position: relative;
+	width: 15%;
+
+	background-color: yellow;
+}
+
+/* Perfect Sunday LEFT Section */
+section#perfect-sunday div#perfect-sunday-left-side-section div.folha1 {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 150px;
+	height: 150px;
+	background-image: url(../images/secao09-folha1.png);
+	background-repeat: no-repeat;
+}
+
+section#perfect-sunday div#perfect-sunday-left-side-section div.camarao {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background-image: url(../images/secao09-camarao.jpg);
+	background-repeat: no-repeat;
+}
+
+section#perfect-sunday div#perfect-sunday-left-side-section div.folha2 {
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	width: 150px;
+	height: 150px;
+	background-image: url(../images/secao09-folha2.png);
+	background-repeat: no-repeat;
+}
+
+/* Perfect Sunday CENTER Section */
+section#perfect-sunday div#perfect-sunday-center-side-section {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+section div#master-key-point {
+	width: 100%;
+	margin-top: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+section div.key-points {
+	text-align: center;
+	width: 25%;
+}
+
+section#perfect-sunday
+	div#perfect-sunday-center-side-section
+	div#master-key-point
+	div.key-points
+	ion-icon {
+	width: 60px;
+	height: 60px;
+	color: #a62103;
+	margin-bottom: -25px;
+}
+
+/* Perfect Sunday RIGHT Section */
+section#perfect-sunday div#perfect-sunday-right-side-section div.folha3 {
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	width: 160px;
+	height: 150px;
+	background-image: url(../images/secao09-folha3.png);
+	background-repeat: no-repeat;
+}
+
+section#perfect-sunday div#perfect-sunday-right-side-section div.tomate {
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	width: 160px;
+	height: 150px;
+	background-image: url(../images/secao09-tomate.png);
+	background-repeat: no-repeat;
+}
+
+section#perfect-sunday div#perfect-sunday-right-side-section div.queijo {
+	position: absolute;
+	top: 600px;
+	left: 10px;
+	width: 160px;
+	height: 150px;
+	background-image: url(../images/secao09-queijo.jpg);
+	background-repeat: no-repeat;
 }
