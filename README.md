@@ -86,8 +86,8 @@
 
 <!-- Contact -->
 <h2><strong>&#128421; Contact</strong></h2>
-<p>&#128231; contact@yujisremarks.com</p>
-<p>&#127760; <a href="https://linktr.ee/vyujitanaka">interwebs</a></p>
+<p>&#128231; contact@mryujitanaka.com</p>
+<!-- <p>&#127760; <a href="https://linktr.ee/vyujitanaka">interwebs</a></p> -->
 
 <!-- Acknowledgements-->
 <h2><strong>&#129392; Acknowledgements</strong></h2>
