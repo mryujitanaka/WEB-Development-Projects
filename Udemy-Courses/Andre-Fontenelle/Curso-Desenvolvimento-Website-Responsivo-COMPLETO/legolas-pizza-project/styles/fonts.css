@@ -41,7 +41,7 @@ h1 {
 
 h2 {
 	font-size: 400%;
-	font-weight: 200;
+	font-weight: 700;
 }
 
 h2::after {
@@ -80,7 +80,7 @@ p.emphasis {
 header div#text-call h1 {
 	font-size: 900%;
 	font-weight: 600;
-	color: #ffffff;
+	color: #f2f2f2;
 	text-shadow: 4px 6px 12px #000000;
 	margin-bottom: -25px;
 }
@@ -95,7 +95,7 @@ header div#text-call h4 {
 header div#text-call a {
 	font-size: 110%;
 	font-weight: 400;
-	color: #ffffff;
+	color: #f2f2f2;
 	text-decoration: none;
 	padding: 15px 25px;
 	border-radius: 30px;
@@ -106,23 +106,26 @@ header div#text-call a {
 	);
 }
 
+/**************************/
 /* Perfect Sunday Section */
-section div#perfect-sunday-center-side-section h2 {
-	font-size: 400%;
-	font-weight: 700;
-}
-
-section div.key-points p {
+/**************************/
+section#perfect-sunday div#perfect-sunday-center-side-section div.key-points p {
 	font-size: 110%;
 	line-height: 1.5;
 	font-weight: 400;
 }
 
-section div.key-points h4 {
+section#perfect-sunday
+	div#perfect-sunday-center-side-section
+	div.key-points
+	h4 {
 	color: #400d01;
 }
 
-section div.key-points h4::after {
+section#perfect-sunday
+	div#perfect-sunday-center-side-section
+	div.key-points
+	h4::after {
 	display: block;
 	background-color: #02734a;
 	height: 5px;
@@ -130,4 +133,24 @@ section div.key-points h4::after {
 	margin: 10px auto 20px;
 	border-radius: 30px;
 	content: " ";
+}
+
+/*****************/
+/* Pizza Section */
+/*****************/
+section#pizza h2 {
+	color: #a62103;
+}
+
+section#pizza p.emphasis {
+	color: #f2f2f2;
+	width: 40%;
+}
+
+section#pizza div#master-pizza-options div.pizza-options ul li {
+	color: #f2f2f2;
+	list-style: none;
+	line-height: 1.9;
+	font-size: 90%;
+	text-transform: uppercase;
 }

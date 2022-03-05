@@ -104,10 +104,12 @@ header div#text-call {
 	transform: translate(-50%, -50%);
 }
 
+/**************************/
 /* Perfect Sunday Section */
+/**************************/
 section#perfect-sunday {
 	width: 100%;
-	padding: 30px 0 80px;
+	padding: 10px 0 80px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
@@ -188,8 +190,8 @@ section#perfect-sunday
 /* Perfect Sunday RIGHT Section */
 section#perfect-sunday div#perfect-sunday-right-side-section div.folha3 {
 	position: absolute;
-	top: 100px;
-	left: 20px;
+	bottom: 510px;
+	left: 50px;
 	width: 160px;
 	height: 150px;
 	background-image: url(../images/secao09-folha3.png);
@@ -198,7 +200,7 @@ section#perfect-sunday div#perfect-sunday-right-side-section div.folha3 {
 
 section#perfect-sunday div#perfect-sunday-right-side-section div.tomate {
 	position: absolute;
-	top: 300px;
+	top: 250px;
 	left: 100px;
 	width: 160px;
 	height: 150px;
@@ -208,10 +210,39 @@ section#perfect-sunday div#perfect-sunday-right-side-section div.tomate {
 
 section#perfect-sunday div#perfect-sunday-right-side-section div.queijo {
 	position: absolute;
-	top: 600px;
+	top: 560px;
 	left: 10px;
 	width: 160px;
 	height: 150px;
 	background-image: url(../images/secao09-queijo.jpg);
 	background-repeat: no-repeat;
+}
+
+/*****************/
+/* Pizza Section */
+/*****************/
+section#pizza {
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)),
+		url(../images/secao10-background-secao-pizza.jpg);
+	background-size: cover;
+	padding: 150px 0 100px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	clip-path: polygon(0 15%, 100% 0, 100% 87%, 0 100%);
+}
+
+section#pizza div#master-pizza-options {
+	width: 80%;
+	margin-top: 30px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+section#pizza div#master-pizza-options div.pizza-options {
+	width: 33.3%;
+	text-align: center;
+	margin: 5px 0;
 }
