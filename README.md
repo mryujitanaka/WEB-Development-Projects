@@ -1,6 +1,6 @@
 <!-- Heading -->
 <h1 align="center">WEB Development Projects</h1>
-    <p align="center">Lessons, Tips, Tricks, Projects and Exercises that I used to learn WEB Development &#x1F913&#x1F596</p>
+    <p align="center">Lessons, Tips, Tricks, Projects and Exercises that I used to learn WEB Development #x1F596&#x1F913&</p>
 <br>
 
 ---
