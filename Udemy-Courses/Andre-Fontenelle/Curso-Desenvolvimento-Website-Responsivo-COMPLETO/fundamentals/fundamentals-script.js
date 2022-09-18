@@ -1,15 +1,15 @@
-// document é o documento/página HTML que estamos trabalhando.
-// querySelector é a função que busca/pega o que quisermos dentro da nossa pasta.
+// document is the HTML document/page we are working on.
+// querySelector is the function that searches/gets what we want inside our folder.
 var myButton = document.querySelector("#button");
 function showWarning() {
    alert("Hey! You clicked me!");
 }
 myButton.addEventListener("click", showWarning);
-// Indentificando elementos da tag <ul> do arquivo HTML
+// Identifying <ul> tag elements of the HTML file
 var ingredient = document.querySelector("ul").children[2].innerHTML;
-// Teste interno para identificar o elemento dentro de <ul>
+// Internal test to identify element inside <ul>
 console.log(ingredient);
-// Acrescentar lista não ordenada no documento HTML através do JS (apenas para testes - não recomendado fazer isso).
+// Append unordered list in HTML document via JS (for testing only - not recommended).
 var lista = document.querySelector("ul");
 var new_item = document.createElement("li");
 lista.appendChild(new_item);

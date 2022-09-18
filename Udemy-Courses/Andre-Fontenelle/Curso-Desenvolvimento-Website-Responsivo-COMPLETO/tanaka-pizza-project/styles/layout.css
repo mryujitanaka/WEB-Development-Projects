@@ -1,0 +1,113 @@
+/* 
+Colors
+
+Dark green: #065902
+Light green: #078C31
+Yellow: #F2B705
+Light red: #F03733
+Dark red #D90404
+Dark grey: #404040
+Light gray: F7F7F7
+*/
+
+/* * is the property that says that the entire page layout will have margin and padding equal to 0 */
+/* The <box-sizing> property "defines how the width and height of an element are calculated: should they include padding and borders, or not?"*/
+/* "box-sizing: border-box: Width and height apply to all parts of the element: content, padding and borders" */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* <header> */
+header {
+   background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0)), url(../images/secao08-background-capa.jpg);
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   height: 100vh;
+   border-top: 2px solid #065902;
+}
+
+/* <nav> properties */
+nav {
+   width: 95%;
+   height: 200px;
+   margin: auto;
+}
+
+/* logo */
+nav div#logo {
+   float: left;
+   background-image: url(../images/secao08-logo-pizzaria-fontenelle.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 200px;
+}
+
+/* applying the flexbox property to the left-menu and right-menu */
+nav ul {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: left;
+   margin-top: 70px;
+   height: 40px;
+}
+
+/* left side menu */
+nav ul#left-menu {
+   float: left;
+}
+
+/* right side menu */
+nav ul#right-menu {
+   float: right;
+}
+
+/* unordered list removal from left-menu and right-menu */
+nav ul li {
+   list-style: none;
+}
+
+/* styling the left-menu and right-menu links */
+nav ul li a {
+   color: #ffffff;
+   text-decoration: none;
+   padding: 10px 30px;
+   border-radius: 100px;
+   font-size: 90%;
+}
+
+/* styling the hover of left-menu and right-menu links */
+nav ul li a:hover {
+   background-color: #f2b705;
+   transition-duration: 0.8s;
+}
+
+/* styling the login button which is inside the right-menu */
+nav ul li a#login-button {
+   border: 1px solid #ffffff;
+   padding: 9px 29px;
+}
+
+/* styling the hover of the login button of the right-menu */
+nav ul li a#login-button:hover {
+   border: #f2b705;
+   transition-duration: 0.8s;
+}
+
+/* styling the icon user-icon of the right-menu */
+nav ion-icon#user-icon {
+   width: 22px;
+   height: 22px;
+   color: #ffffff;
+   margin-top: -2px;
+   margin-left: 20px;
+}
+
+/* styling the hover of the icon user-icon of the right-menu */
+nav ion-icon#user-icon:hover {
+   color: #f2b705;
+   cursor: pointer;
+}
