@@ -27,6 +27,7 @@ header {
    width: 100%;
    height: 100vh;
    border-top: 2px solid #065902;
+   clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
 }
 
 /* <nav> properties */
