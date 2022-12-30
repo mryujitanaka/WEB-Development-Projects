@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Lesson 03</title>
+      <style>
+         body {
+            background-color: black;
+            color: white;
+            font: normal 20px Arial;
+         }
+         h1 {
+            color: #14a900;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Hello, World!</h1>
+      <p>I got rid of the curse!</p>
+      <script>
+         // window.prompt and window.alert are treated as a string.
+         // So, we have to convert String to Number (integer / float) using Number.parseInt() / Number.parseFloat() or just parseInt() / parseFloat() or even Number().
+         // Using Number(), JS will handle the data, whether they are Integers or Floats automatically. 
+         var n1 = Number(window.prompt(`Type the first number:`))
+         var n2 = Number(window.prompt(`Type the second number:`))
+         // We have to force the values to be treated as numbers, and for that, we need to convert the string values to number values.
+         var total = n1 + n2
+         // window.alert(`The sum between ` + n1 + ` and ` + n2 + ` is ` + total + `.`) // concatenation
+         window.alert(`The sum between ${n1} and ${n2} is ${total}.`) // Template String
+         // (number + number) = sum
+         // (string + string) = concatenation
+         //
+         // We can convert number to string as well. Just use the command: String(n)
+         // Or we can use the command: n.toString()
+         // n is the number you want to convert.
+         //
+         // We can format strings in another way to shorten a cocatenation using Template String. Ex.:
+         /* name = "Yuji"
+            age = "26"
+            work = "Web Developer"
+            name + ", " + age + " years old," + " works as a " + work + "." // concatenation
+            `${name}, ${age} years old, works as a ${work}.` // Template String
+         */
+      </script>
+   </body>
+</html>
