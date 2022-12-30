@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Lesson 4</title>
+      <style>
+         body {
+            font: normal 25px Arial;
+         }
+      </style>
+   </head>
+   <body>
+      <script>
+         var name = window.prompt(`What's your name?`)
+         document.write(`Hi, <strong>${name}</strong>! Your name have ${name.length} letters.<br>`)
+         document.write(`Your name in upper case is ${name.toUpperCase()}.<br>`)
+         document.write(`Your name in lower case is ${name.toLowerCase()}.`)
+         //
+         // We can format numbers in other ways as well:
+         /*
+            n.toFixed()
+            n.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})
+         */
+        // Ex.:
+        /* 
+            var n = 1545.5
+            n.toFixed(2)
+            n.toFixed(2).replace('.',',')
+            n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+            n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+            n.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+        */ 
+      </script>
+   </body>
+</html>
