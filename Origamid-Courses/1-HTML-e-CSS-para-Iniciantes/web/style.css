@@ -1,0 +1,23 @@
+#intro {
+  color: gold;
+}
+
+.car {
+  color: green;
+}
+
+.bike {
+  color: orangered;
+}
+
+.violet {
+  color: blueviolet;
+}
+
+.big {
+  font-size: 32px;
+}
+
+.underline {
+  text-decoration: underline;
+}
