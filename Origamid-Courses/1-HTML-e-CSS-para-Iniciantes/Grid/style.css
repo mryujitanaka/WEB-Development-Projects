@@ -1,0 +1,33 @@
+* {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.item {
+  display: grid;
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+}
+
+.btm-buy {
+  /* display: inline-block; */
+  background: #a8f;
+  color: #103;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
