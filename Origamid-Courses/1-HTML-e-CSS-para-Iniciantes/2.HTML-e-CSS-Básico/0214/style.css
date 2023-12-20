@@ -1,0 +1,44 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  margin: 50px;
+}
+
+h1 {
+  color: #111;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.div-product {
+  background: #111;
+  padding: 35px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+h2 {
+  margin: 0px;
+  color: #fff;
+}
+
+.yellow-text {
+  color: #febe01;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+a {
+  display: block;
+  width: 81px;
+  text-align: center;
+  text-decoration: none;
+  color: #332200;
+  background: #febe01;
+  padding: 15px;
+  border-radius: 4px;
+}

@@ -1,0 +1,19 @@
+/* Understanding the img tag */
+/* div {
+  width: 300px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+} */
+
+img {
+  max-width: 100%;
+  /* width: 100%; */
+  display: block;
+}
+
+.photo {
+  width: 150px;
+}
