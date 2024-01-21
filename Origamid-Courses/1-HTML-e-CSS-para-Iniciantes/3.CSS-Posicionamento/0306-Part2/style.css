@@ -1,0 +1,67 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: auto auto auto 1fr; */
+  /* or */
+  grid-template-rows: repeat(3, auto) 1fr;
+  place-items: start;
+}
+
+.title {
+  grid-column: 1 / -1;
+}
+
+.buy-buttom {
+  grid-column: 2;
+}
+
+.photo {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+
+/* General Styles */
+
+* {
+  font-family: Arial;
+}
+
+body {
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.buy-buttom {
+  background: #a8f;
+  color: #103;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.price {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
