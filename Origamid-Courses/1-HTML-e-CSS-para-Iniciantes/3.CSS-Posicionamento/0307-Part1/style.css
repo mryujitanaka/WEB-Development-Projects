@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* height: 600px; */
+  /* height: 100vh; */
+  /* background: chocolate; */
+  /* align-content: center; */
+  /* --- */
+  /* align-content: start; */
+  /* or */
+  /* align-content: flex-start; */
+  /* --- */
+  /* Same as "justify-content: center;" and "align-content: center;" */
+  place-content: center;
+}
+
+/* h2 {
+  margin-right: 20px;
+} */
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+}
