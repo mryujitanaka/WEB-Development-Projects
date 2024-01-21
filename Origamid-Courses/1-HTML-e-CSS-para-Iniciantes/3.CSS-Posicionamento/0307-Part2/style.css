@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Cannot use "justify-content: center;" if "flex: 1;" is enabled */
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+  /* flex-grow: 1;
+  flex-basis: auto; */
+  /* flex-basis: 200px; */
+  /* flex-shrink: 0; */
+  /* Shortcut for "flex-grow: 1;", "flex-basis: auto;" and "flex-shrink: 0;": */
+  flex: 1;
+}
