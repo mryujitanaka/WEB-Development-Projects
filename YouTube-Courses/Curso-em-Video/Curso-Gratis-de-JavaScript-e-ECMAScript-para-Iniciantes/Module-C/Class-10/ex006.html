@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>DOM Events</title>
+  <style>
+    div#area {
+      font: normal 20pt Arial;
+      background: rgb(42, 139, 42);
+      color: white;
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="area" onclick="click_me()" onmouseenter="enter_me()" onmouseout="out_of_me()">
+    Interect!
+  </div>
+  <script>
+    var div_area = window.document.getElementById('area')
+    function click_me() {
+      div_area.innerText = 'Clicked!'
+      div_area.style.background = 'purple'
+    }
+    function enter_me() {
+      div_area.innerText = 'Entered!'
+      div_area.style.background = 'blue'
+    }
+    function out_of_me() {
+      div_area.innerText = 'Out!'
+      div_area.style.background = 'red'
+    }
+  </script>
+</body>
+
+</html>

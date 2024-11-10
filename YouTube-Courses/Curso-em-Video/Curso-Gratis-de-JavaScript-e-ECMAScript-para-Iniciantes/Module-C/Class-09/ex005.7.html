@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Selecting DOM Elements by Query Selector</title>
+  <style>
+    body {
+      background: rgb(68, 125, 199);
+      color: white;
+      font: normal 16pt Arial;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Starting to study with DOM</h1>
+  <p>Result</p>
+  <p>Learning to use the <strong>DOM</strong> in JavaScript</p>
+  <div id="msg">Click Here</div>
+  <div class="msg2">Click Here One More Time</div>
+  <script>
+    var selecting_Element_by_Selector = window.document.querySelector('div#msg')
+    selecting_Element_by_Selector.style.color = 'black'
+    selecting_Element_by_Selector.style.background = 'red'
+    var selecting_Element_by_Selector_2 = window.document.querySelector('div.msg2')
+    selecting_Element_by_Selector_2.style.color = 'red'
+    selecting_Element_by_Selector_2.style.background = 'black'
+  </script>
+</body>
+
+</html>

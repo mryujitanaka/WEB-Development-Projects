@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sum between Numbers</title>
+  <style>
+    body {
+      font: normal 16pt Arial;
+    }
+
+    h1 {
+      margin-bottom: 35px;
+    }
+
+    input {
+      font: normal 15pt Arial;
+      width: 150px;
+    }
+
+    div#result_between_numbers {
+      margin-top: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Sum between Numbers</h1>
+  <input type="number" name="txtn1" id="txtn1"> +
+  <input type="number" name="txtn2" id="txtn2">
+  <input type="button" value="Sum" onclick="sum()">
+  <div id="result_between_numbers">Result</div>
+
+  <script>
+    function sum() {
+      // var text_box1 = window.document.getElementById('txtn1')
+      // var text_box2 = window.document.getElementById('txtn2')
+      // or:
+      var text_box1 = window.document.querySelector('input#txtn1')
+      var text_box2 = window.document.querySelector('input#txtn2')
+      var result_between_numbers = window.document.getElementById('result_between_numbers')
+
+      var number1 = Number(text_box1.value)
+      var number2 = Number(text_box2.value)
+      var sum_between_numbers = number1 + number2
+      result_between_numbers.innerHTML = `The sum between ${number1} and ${number2} is equal to <strong>${sum_between_numbers}</strong>`
+    }
+  </script>
+</body>
+
+</html>

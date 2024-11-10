@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Messing Around with DOM Elements by Tag - Part II</title>
+  <style>
+    body {
+      background: rgb(68, 125, 199);
+      color: white;
+      font: normal 16pt Arial;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Starting to study with DOM</h1>
+  <p>Result</p>
+  <p>Learning to use the <strong>DOM</strong> in JavaScript</p>
+  <div>Click Here</div>
+  <br>
+  <script>
+    var myParagraph = window.document.getElementsByTagName('p')[1]
+    document.write(myParagraph.innerText + '<br>')
+    document.write(myParagraph.innerHTML)
+    window.alert(myParagraph.innerText)
+    // window.alert(myParagraph.innerHTML)
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Living in which Country?</title>
+</head>
+
+<body>
+  <h1>Living in which Country?</h1>
+  Name of the country: <input type="string" id="txtcountry">
+  <button onclick="checkNationality()">Check Nationality</button>
+  <div id="result"></div>
+
+  <script>
+    function checkNationality() {
+      var countryInput = document.getElementById('txtcountry');
+      var resultDiv = document.getElementById('result');
+      var nameOfTheCountry = countryInput.value;
+
+      resultDiv.innerHTML = `<p>You're living in <strong>${nameOfTheCountry}</strong>.</p>`;
+      if (nameOfTheCountry == 'Brazil') {
+        resultDiv.innerHTML += `<p>You're <strong>Brazilian</strong>!</p>`;
+      } else {
+        resultDiv.innerHTML += `<p>You're a <strong>foreigner</strong>!</p>`;
+      }
+    }
+  </script>
+</body>
+
+</html>

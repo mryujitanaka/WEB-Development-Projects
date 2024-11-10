@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Selecting DOM Elements by Class Name</title>
+  <style>
+    body {
+      background: rgb(68, 125, 199);
+      color: white;
+      font: normal 16pt Arial;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Starting to study with DOM</h1>
+  <p>Result</p>
+  <p>Learning to use the <strong>DOM</strong> in JavaScript</p>
+  <div class="msg">Click Here</div>
+  <br>
+  <script>
+    var selecting_Element_by_Class = window.document.getElementsByClassName('msg')[0]
+    selecting_Element_by_Class.innerText = 'Text changed by DOM using getElementsByClassName'
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>DETRAN</title>
+</head>
+
+<body>
+  <h1>Fine System</h1>
+  Car Speed: <input type="number" name="txtspeed" id="txtspeed">Km/h
+  <input type="button" value="verify" onclick="calculate_speed()">
+  <div id="result"></div>
+
+  <script>
+    function calculate_speed() {
+      // var txt_car_speed = window.document.getElementById('txtspeed')
+      // or:
+      var txt_car_speed = window.document.querySelector('input#txtspeed')
+      var calculate_speed_result = window.document.querySelector('div#result')
+      var speed = Number(txt_car_speed.value)
+
+      calculate_speed_result.innerHTML = `<p>Your speed is <strong>${speed}Km/h</strong></p>`
+      if (speed > 60) {
+        calculate_speed_result.innerHTML += `<p>You are <strong>FINED</strong> for speeding!</p>`
+      }
+      calculate_speed_result.innerHTML += `<p>Always drive with your seat belt!</p>`
+    }
+  </script>
+</body>
+
+</html>
