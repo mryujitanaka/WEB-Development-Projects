@@ -1,0 +1,15 @@
+img {
+  max-width: 100%;
+  /* width: 100%; */
+  display: block;
+}
+
+/* Sugestão: utilizar sempre a metade da resolução da imagem para preservar a qualidade da mesma ao máximo*/
+
+.foto1 {
+  width: 600px;
+}
+
+.foto2 {
+  width: 150px;
+}
