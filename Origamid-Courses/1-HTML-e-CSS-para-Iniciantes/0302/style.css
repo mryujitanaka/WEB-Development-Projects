@@ -1,0 +1,39 @@
+* {
+  font-family: Arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.preco {
+  margin-bottom: 15px;
+}
+
+.descricao {
+  margin-bottom: 30px;
+}
+
+.comprar {
+  background: green;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+}
